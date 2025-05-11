@@ -1,11 +1,10 @@
 import os
 import logging
 import requests
-import json
 import time
 from datetime import datetime, timedelta
 from telegram import Update, ParseMode, ReplyKeyboardMarkup
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, ConversationHandler
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 from dotenv import load_dotenv
 
 # Загрузка переменных окружения из .env файла
